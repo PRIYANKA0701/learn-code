@@ -1,0 +1,5 @@
+
+CREATE PROCEDURE projectsTeam()
+BEGIN
+	SELECT DISTINCT (name) as name FROM projectLog order by name;
+END
