@@ -1,0 +1,12 @@
+int shapeArea(int n) {
+    
+    int a = n* n;
+    if(n-1 != 0)
+    {
+        a= a+ ((n-1)*(n-1));
+    }
+    else{
+        a =1;
+    }
+    return a;
+}
